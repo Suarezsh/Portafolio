@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-language" content="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Suarez sh - Desarrollador Full Stack</title>
+    <link rel="icon" type="image/png" href="./img/programador.png">
+    <meta name="description" content="Portafolio de Suarez sh, Desarrollador Full Stack. Proyectos, habilidades y contacto.">
+    <meta name="keywords" content="Suarez sh, Desarrollador, Full Stack, Portafolio, Proyectos, Contacto, Security">
+    <meta name="author" content="Suarez sh">
+    <meta property="og:title" content="Suarez sh - Desarrollador Full Stack">
+    <meta property="og:description" content="Portafolio de Suarez sh, Desarrollador Full Stack. Proyectos, habilidades y contacto.">
+    
+    <link rel="preload" href="./css/styles.css" as="style">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="mobile-web-app-capable" content="yes">
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+
+
+</head>
+<body>
+    
+    <div class="menu">
+       
+        <div class="menu-button" id="menu-button">&#9776;</div>
+        <ul class="menu-list" id="menu-list">
+            <li><a href="#home"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> Sobre mí</a></li>
+            <li><a href="#skills"><i class="fas fa-cogs"></i> Habilidades</a></li>
+            <li><a href="#projects"><i class="fas fa-folder-open"></i> Proyectos</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contacto</a></li>
+        </ul>
+        
+    </div>
+
+    <section class="main-content">
+        <div class="content" id="home">
+            <div id="particles-js"></div>
+
+            <div class="social-icons">
+                <a href="https://github.com/Suarezsh" target="_blank">
+                    <i class="fab fa-github" id="github-icon" onclick="changeIcon('github')"></i>
+                </a>
+                <a href="https://wa.me/+51963700816" target="_blank">
+                    <i class="fab fa-whatsapp" id="whatsapp-icon" onclick="changeIcon('whatsapp')"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/marco-antonio-suarez-huamani-a12833282/" target="_blank">
+                    <i class="fab fa-linkedin" id="linkedin-icon" onclick="changeIcon('linkedin')"></i>
+                </a>
+            </div>
+            <div class="home-content">
+                <div class="info">
+                    <h1>Suarez sh </h1>
+                    <img src="./img/suarezsh.png" alt="suarez sh">
+                </div>
+                <div class="description">
+                    <p>I'm</p>
+                    <span id="typed-string"><span class="txt-rotate" data-period="3000" data-rotate='["Full Stack Developer.","Java developer."]'></span><span id="cursor" style="color:red;">|</span></span>
+                    
+                </div>
+                <a href="#about" class="learn-more-button">
+                    Ver más
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+            
+        </div>
+        
+        
+            
+        
+
+
+
+
+        <div class="content" id="about">
+            <div class="about-content">
+                <h1>Sobre mí</h1>
+                <p>Soy un estudiante en el programa de Ingeniería de Sistemas con sólidas habilidades en desarrollo web full-stack y desarrollo de aplicaciones de escritorio.</p>
+                <p>"<strong>Mi objetivo es sobresalir en el desarrollo de software y crear soluciones significativas para los usuarios.</strong>"</p>
+                
+                <div class="experience-icons">
+                    <div class="icon">
+                        <i class="fas fa-briefcase"></i>
+                        <p>Experiencia: Desarrollador freelance</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-project-diagram"></i>
+                        <p>Proyectos: {4} proyectos</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-phone"></i>
+                        <p>Contactame: +51963700816</p>
+                    </div>
+                </div>
+                
+                <a href="#" id="download-button" class="download-button">
+                    <i class="fas fa-cloud-download-alt"></i>
+                    Descargar CV
+                </a>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+        <div class="content" id="skills">
+            <h1>Habilidades</h1>
+            <p>Desarrollador Full Stack con una sólida base de conocimientos en tecnologías web.</p>
+            <div class="skill-icons">
+                <i class="fab fa-java"></i>
+                <i class="fab fa-python"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-php"></i>
+                <i class="fab fa-bootstrap"></i>
+                <i class="fa fa-database" ></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-github"></i> 
+                <i class="fab fa-linux"></i>
+            </div>
+            
+
+        </div>
+        
+
+
+
+        <div class="content" id="projects">
+            <h1>Proyectos</h1>
+            <div class="project-container">
+                <div class="project">
+                    <img src="./img/ta.jpg">
+                    <h3>Tareas-Admin</h3>
+                    <p>Es un eficiente Administrador de Tareas que ofrece una amplia gama de funcionalidades, incluyendo la creación, búsqueda, visualización, edición y eliminación de tareas. Desarrollado con un enfoque en la usabilidad y la velocidad, esta aplicación utiliza tecnologías como HTML, JavaScript y Bootstrap. Además, aprovecha el almacenamiento local para garantizar un rendimiento óptimo</p>
+                    <a href="https://suarezsh.github.io/Tareas-admin/" class="view-button">Ver sitio</a>
+                </div>
+                
+                <div class="project">
+                    <img src="./img/ss.jpg">
+                    <h3>Screen-Sh</h3>
+                    <p>Screen-Sh es una sencilla herramienta de captura de pantalla desarrollada en Python con una interfaz minimalista. Permite a los usuarios tomar capturas de pantalla con un doble clic y mover la ventana de manera intuitiva, ofreciendo una experiencia de uso fácil y eficiente.</p>
+                    <a href="https://github.com/Suarezsh/Screen-sh.git" class="view-button">Ver código</a>
+                </div>
+                <div class="project">
+                    <img src="./img/vg.jpg" >
+                    <h3>VetGanado</h3>
+                    <p>La plataforma definitiva para el control y registro de dosis y vacunas en ganado bovino y ovino. Desarrollada en PHP y Bootstrap, respaldada por una base de datos MySQL, esta plataforma garantiza una gestión eficiente y precisa de la salud de tu ganado. .</p>
+                    <a href="https://github.com/Suarezsh/VetGanado.git" class="view-button">Ver código</a>
+                </div>
+                <div class="project">
+                    <img src="./img/snvg.jpg">
+                    <h3>VetGanado-ls</h3>
+                    <p>Una herramienta versátil y eficiente, desarrollada en HTML, Bootstrap y JavaScript, que permite el control y registro de dosis y vacunas en ganado bovino y ovino. Utiliza una base de datos localstorage para garantizar la integridad de la información. Además, ofrece la capacidad de llevar un registro detallado de las actividades diarias de los técnicos, lo que la convierte en una solución completa y esencial para la gestión ganadera.</p>
+                    <a href="https://suarezsh.github.io/VetGanado-ls/" class="view-button">Ver sitio</a>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <div class="content" id="contact">
+            <h1>Contáctame</h1>
+            <form id="contactoForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="button" id="enviarButton">Enviar</button>
+            </form>
+        </div>
+        
+        
+
+       
+
+
+    </section>
+    
+    <footer id="footer">
+        <a href="https://wa.me/+51963700816" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/Suarezsh" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/marco-antonio-suarez-huamani-a12833282/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <p>Todos los derechos reservados &copy; Suarez Sh</p>
+    </footer>
+
+    <script>
+        particlesJS("particles-js", {
+          particles: {
+            number: {
+              value: 80,
+              density: {
+                enable: true,
+                value_area: 800,
+              },
+            },
+            color: {
+              value: "#ffffff",
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 0,
+                color: "#000000",
+              },
+              polygon: {
+                nb_sides: 5,
+              },
+              image: {
+                src: "img/github.svg",
+                width: 100,
+                height: 100,
+              },
+            },
+            opacity: {
+              value: 0.5,
+              random: true,
+              anim: {
+                enable: false,
+                speed: 1,
+                opacity_min: 0.1,
+                sync: false,
+              },
+            },
+            size: {
+              value: 5,
+              random: true,
+              anim: {
+                enable: false,
+                speed: 40,
+                size_min: 0.1,
+                sync: false,
+              },
+            },
+            line_linked: {
+              enable: true,
+              distance: 150,
+              color: "#ffffff",
+              opacity: 0.4,
+              width: 1,
+            },
+            move: {
+              enable: true,
+              speed: 6,
+              direction: "none",
+              random: false,
+              straight: false,
+              out_mode: "out",
+              bounce: false,
+              attract: {
+                enable: false,
+                rotateX: 600,
+                rotateY: 1200,
+              },
+            },
+          },
+          interactivity: {
+            detect_on: "canvas",
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+              onclick: {
+                enable: true,
+                mode: "push",
+              },
+              resize: true,
+            },
+            modes: {
+              grab: {
+                distance: 400,
+                line_linked: {
+                  opacity: 1,
+                },
+              },
+              bubble: {
+                distance: 400,
+                size: 40,
+                duration: 2,
+                opacity: 8,
+                speed: 3,
+              },
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
+              push: {
+                particles_nb: 4,
+              },
+              remove: {
+                particles_nb: 2,
+              },
+            },
+          },
+          retina_detect: true,
+        });
+        </script>
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
