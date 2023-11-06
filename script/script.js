@@ -109,8 +109,8 @@ var TxtRotate = function(el, toRotate, period) {
 //about
   document.getElementById("download-button").addEventListener("click", function() {
     var link = document.createElement("a");
-    link.download = "cv.pdf";
-    link.href = "cv.pdf";
+    link.download = "./pdf/cv.pdf";
+    link.href = "./pdf/cv.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
